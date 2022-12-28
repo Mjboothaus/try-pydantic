@@ -24,4 +24,5 @@ class CatRequest(BaseModel):
 
     name: str = Field(..., description="Cat's name.")
     age: Optional[int] = Field(None, description="Cat's age, in cat years.")
-    address: Optional[Address] = Field(None, description='Where does the cat live.')
+    address: Optional[Address] = Field(
+        None, description='Where does the cat live.')
