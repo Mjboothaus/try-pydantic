@@ -2,3 +2,4 @@ pydantic
 autopep8
 ipykernel
 notebook
+datamodel-code-generator
